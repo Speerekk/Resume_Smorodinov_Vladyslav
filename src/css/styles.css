@@ -1,9 +1,3 @@
-:root {
-  --page-bg-color: #f1f1f6;
-  --page-about-color: #cccccc;
-  --primary-text-color: #191818;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +6,7 @@
 }
 
 body {
-  background-color: var(--page-about-color);
+  background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,10 +105,6 @@ body {
 .about {
   display: flex;
   fill: purple;
-}
-
-.about__me {
-  max-width: 370px;
 }
 
 .about_info {
