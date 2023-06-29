@@ -4,23 +4,74 @@
   --primary-text-color: #191818;
 }
 
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  background-color: var(--page-bg-color);
-  color: var(--primary-text-color);
 }
 
-a {
-  text-decoration: none;
-  color: var(--primary-text-color);
+body {
+  background-color: var(--page-about-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  width: 100%;
+  min-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background-color: #7e7b7b;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 35px rgba(0, 0, 0, 0.2);
+}
+
+.container .left_side {
+  position: relative;
+  background-color: #2c2929;
+  padding: 40px;
+  margin-left: 0px;
+}
+
+.profile_text {
+  position: relative;
+  display: flex;
+}
+
+.img_bx {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__about {
+  background-color: rgb(190, 190, 25);
+  padding: 15px 100px 20px 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.container__about span {
+  font-size: 17px;
+}
+
+.container .right_side {
+  position: relative;
+  background-color: #000000;
+  padding: 40px;
 }
 
 .title {
@@ -48,20 +99,6 @@ a {
 .text__contact {
   list-style: none;
   margin-bottom: 5px;
-}
-
-.container__about {
-  background-color: rgb(190, 190, 25);
-  padding: 30px 100px 30px 30px;
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
-  text-decoration: none;
-  font-family: "Montserrat";
-  font-weight: 800;
-  font-size: 33px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 
 .photo {
