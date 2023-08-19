@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>CV Vladyslav Smorodinov</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -15,135 +20,87 @@
   </head>
   <body>
     <div class="container">
-      <div class="left_side">
-        <div class="profile_text">
-          <div class="img_bx">
-            <img src="../img/photo.jpg" alt="photo" class="photo" />
-            <h2 class="container__about">
-              Vladyslav Smorodinov <br /><span>Junior Web Developer</span>
-            </h2>
-          </div>
+      <div class="left-side">
+        <div class="profile-text">
+          <div class="img-bx"><img src="../img/photo.jpg" /></div>
+          <h2>Vladyslav Smorodinov<br /><span>Web Developer</span></h2>
+        </div>
+
+        <div class="contact-info">
+          <h3 class="title">Contact info</h3>
+          <ul>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-phone" aria-hidden="true"></i
+              ></span>
+              <a href="tel:+380502029270">+38 050 202 92 70</a>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-envelope-o" aria-hidden="true"></i
+              ></span>
+              <a href="mailto:iamspeere@gmail.com">iamspeere@gmail.com</a>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></span>
+              <a
+                href="https://www.linkedin.com/in/vladyslav-smorodinov-3b5b86279/"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></span>
+              <a href="https://github.com/Speerekk">GitHub</a>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-telegram" aria-hidden="true"></i
+              ></span>
+              <a href="https://t.me/Speerekk">@Speerekk</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-info education">
+          <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>2022-2023</h5>
+              <h4>Full-Stuck Developer</h4>
+              <h4>GoIT School</h4>
+            </li>
+            <li>
+              <h5>2010-2014</h5>
+              <h4>Transport technologies</h4>
+              <h4>Transport college</h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-info language">
+          <h3 class="title">Languages</h3>
+          <ul>
+            <li>
+              <span class="text">English - advanced</span>
+              <span class="percent">
+                <div style="width: 75%"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">Ukrainian - native</span>
+              <span class="percent">
+                <div style="width: 100%"></div>
+              </span>
+            </li>
+          </ul>
         </div>
       </div>
 
-      <div class="right_side"></div>
-
-      <!-- <div class="container">
-        <h3>About me</h3>
-        <p class="about__me">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
-          aliquam quam voluptates esse! Est ipsam ex error odio deleniti, sequi
-          aut animi, quisquam quas, dolorum harum. Tempora, voluptas sit!
-        </p>
-      </div>
-      <div class="container">
-        <h3>Tech Skills</h3>
-        <ul>
-          <li class="text">
-            <p>CSS3</p>
-          </li>
-          <li class="text">
-            <p>HTML5</p>
-          </li>
-          <li class="text">
-            <p>Sass</p>
-          </li>
-          <li class="text">
-            <p>JavaScript</p>
-          </li>
-          <li class="text">
-            <p>React Hooks & Components</p>
-          </li>
-          <li class="text">
-            <p>React Redux</p>
-          </li>
-          <li class="text">
-            <p>REST API</p>
-          </li>
-          <li class="text">
-            <p>Node.js</p>
-          </li>
-        </ul>
-      </div>
-      <div class="container">
-        <h3 class="about">Contact Me</h3>
-        <ul class="about_text">
-          <li class="text__contact">
-            <a href="tel:+380502029270"
-              ><svg class="svg">
-                <use href="../img/symbol-defs-3.svg#icon-phone"></use>
-              </svg>
-              +38 050 202 92 70</a
-            >
-          </li>
-          <li class="text__contact">
-            <a href="mailto:iamspeere@gmail.com"
-              ><svg class="svg">
-                <use href="../img/symbol-defs-3.svg#icon-mail"></use>
-              </svg>
-              iamspeere@gmail.com</a
-            >
-          </li>
-          <li class="text__contact">
-            <a
-              href="https://www.linkedin.com/in/vladyslav-smorodinov-3b5b86279/"
-              ><svg class="svg">
-                <use href="../img/symbol-defs-3.svg#icon-world"></use>
-              </svg>
-              LinkedIn</a
-            >
-          </li>
-          <li class="text__contact">
-            <a href="https://github.com/Speerekk"
-              ><svg class="svg">
-                <use href="../img/symbol-defs-3.svg#icon-github"></use>
-              </svg>
-              GitHub</a
-            >
-          </li>
-          <li class="text__contact">
-            <a href="https:/t.me/@Speerekk"
-              ><svg class="svg">
-                <use href="../img/symbol-defs-3.svg#icon-paper-plane"></use>
-              </svg>
-              @Speerekk</a
-            >
-          </li>
-        </ul>
-      </div>
-
-      <div class="container">
-        <h3>Languages</h3>
-        <ul>
-          <li class="text">
-            <p>English - intermediate</p>
-          </li>
-          <li class="text">
-            <p>Ukrainian - native</p>
-          </li>
-        </ul>
-      </div>
+      <div class="right-side"></div>
     </div>
-
-    <div class="container">
-      <h3>Soft Skills</h3>
-      <ul>
-        <li class="text">
-          <p>Team Work</p>
-        </li>
-        <li class="text">
-          <p>Problem Solving</p>
-        </li>
-        <li class="text">
-          <p>Strong Adaptation Skills</p>
-        </li>
-        <li class="text">
-          <p>High Analytics Skills</p>
-        </li>
-        <li class="text">
-          <p>Communicative</p>
-        </li>
-      </ul>
-    </div> -->
   </body>
 </html>
