@@ -177,7 +177,25 @@ p {
   color: #333;
 }
 
+.projects {
+  margin-bottom: 5px;
+}
+
+.projects h5 {
+  font-size: 17px;
+}
+
+.projects h5 a {
+  color: #081921;
+  text-decoration: none;
+  fill: #081921;
+}
+
 .projects p {
   font-size: 10px;
   color: rgb(173, 170, 170);
+}
+
+.projects span {
+  font-size: 15px;
 }
